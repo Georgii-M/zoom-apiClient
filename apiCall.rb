@@ -1,8 +1,9 @@
 require 'uri'
 require 'net/http'
 
-userId = "georgii.marinov98@gmail.com"
-token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6IjZJOVlfSlBxVDk2NkliUUJMM1otdVEiLCJleHAiOjE1ODk4MTA3NTQsImlhdCI6MTU4OTgwNTM1NX0.a7JPQnF3Uka4NKqMieSATPVQ6YfDvsXeeRaMYL0FkQE"
+# Place your userID (eg.email) and token below
+userId = "example@mail.com"
+token = "Your JWT access token"
 
 url = URI("https://api.zoom.us/v2/users/#{userId}/recordings")
 
